@@ -18,14 +18,14 @@ Before running any scripts, install Docker Community Edition (CE)...
 
 ## Running docker build
 
-The following command builds an image of Omnidex on CentOS. Supply a version as the single parameter. (5.5, etc.)
+The following command builds an image of Omnidex on CentOS. Supply a version as the single parameter. (5.6, etc.)
 ```bash
 ./docker-build.sh <version>
 ```
 
 ## Running docker exec
 
-The following command starts a container of Omnidex on CentOS, if one is not yet running, and then attaches an interactive bash shell. If the container is already running, this command simply reattaches to the existing container instead of creating a new one. Supply a version as the single parameter. (5.5, etc.)
+The following command starts a container of Omnidex on CentOS, if one is not yet running, and then attaches an interactive bash shell. If the container is already running, this command simply reattaches to the existing container instead of creating a new one. Supply a version as the single parameter. (5.6, etc.)
 ```bash
 ./docker-exec.sh <version>
 ```
@@ -34,7 +34,7 @@ An ./omnidex-&lt;version&gt;-data directory is mounted as /data within the conta
 
 ## Running docker stop
 
-The following command stops a container of Omnidex on CentOS, if one is running, and then removes it. Supply a version as the single parameter. (5.5, etc.)
+The following command stops a container of Omnidex on CentOS, if one is running, and then removes it. Supply a version as the single parameter. (5.6, etc.)
 ```bash
 ./docker-stop.sh <version>
 ```
