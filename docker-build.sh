@@ -10,6 +10,9 @@ VERSION=${1}
 # TODO as new RPMs are made available for download,
 #      supply new versions and the latest suffixes below
 case "${VERSION}" in
+  "5.6")
+    SUFFIX="01A"
+    ;;
   "5.5")
     SUFFIX="01D"
     ;;
